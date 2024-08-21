@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #00bcd4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.platform-section,
+.form-section,
+.output-section,
+.instructions-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+#server-form {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+#server-form th,
+#server-form td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#server-form th {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e91e63;
+}
+
+.hidden {
+    display: none;
+}
+
+.output-container pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
